@@ -4,7 +4,9 @@ html{
 h1{
     color: darkviolet;
     text-align: center;
+    font-style: italic;
 }
 .Top-paragraph{
     font-size: 20px;
+     font-style: italic;
 }
