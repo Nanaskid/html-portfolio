@@ -1,6 +1,14 @@
 html{
     background: ivory;
 }
+#IG{
+    position: relative;
+    left: 10px;
+}
+#TikTok{
+    position: absolute;
+    left: 50px;
+}
 h1{
     color: darkviolet;
     text-align: center;
@@ -9,4 +17,10 @@ h1{
 .Top-paragraph{
     font-size: 20px;
      font-style: italic;
+}
+div{
+    /* border: 2px dashed purple; */
+    width: 150px;
+    border-radius: 50%;
+    /* background-color: lightyellow; */
 }
