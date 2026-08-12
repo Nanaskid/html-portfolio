@@ -18,9 +18,14 @@ h1{
     font-size: 20px;
      font-style: italic;
 }
-div{
-    /* border: 2px dashed purple; */
-    width: 150px;
-    border-radius: 50%;
-    /* background-color: lightyellow; */
+div.overall{
+    height: 100%;
+    width: 100%;
+}
+@media(max-width: 600px){
+    div.overall{
+        height: 50%;
+        width: 50%;
+        font-size: 50px;
+    }
 }
