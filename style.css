@@ -1,13 +1,33 @@
-html{
+body{
     background: ivory;
 }
+ @media(min-width:319px) and (max-width:480px){
+      body{
+        background-color: #FFF7EB;
+      }
+    }
+@media(min-width:481px) and (max-width:1200px){
+      body{
+        background-color: #E3F2FD;
+      }
+    }
+@media(min-width:1201px) and (max-width:1600px){
+      body{
+        background-color: #E8F5E9;
+      }
+    }
+@media(min-width:1601px){
+      body{
+        background-color: #FFECC0;
+      }
+    }
 #IG{
     position: relative;
     left: 10px;
 }
 #TikTok{
     position: absolute;
-    left: 50px;
+    left: 60px;
 }
 h1{
     color: darkviolet;
