@@ -73,3 +73,15 @@ li{
 .plan-price{
     color: midnightblue;
 }
+@media (max-width: 1250px) {
+    .pricing-container{
+        flex-direction: column;
+        margin-top: 0%;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex: 1;
+    }
+}
