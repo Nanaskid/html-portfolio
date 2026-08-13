@@ -26,14 +26,15 @@ div.overall{
     height: 100%;
     width: 100%;
 }
-li{
+.plan-features > li{
     list-style: none;
 }
 .pricing-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
+    flex: 1;
 }
 .pricing-plan{
     background-color: #f2f2f2;
