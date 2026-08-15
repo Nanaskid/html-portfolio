@@ -1,96 +1,41 @@
-body{
-    background: #FFFDF6;
+.active{
+    background-color: #004147 !important;
 }
-html{
-    font-size: 20px;
+.nav-link{
+    color: #004147 !important;
 }
-
-#IG{
-    position: relative;
-    margin-right: 10px;
-}
-#TikTok{
-    position: relative;
-    margin-right: 10px;
-}
-h1{
-    color: darkviolet;
-    text-align: center;
-    font-style: italic;
-}
-.Top-paragraph{
-    font-size: 1.1rem;
-     font-style: italic;
-}
-div.overall{
-    height: 100%;
-    width: 100%;
-}
-.plan-features > li{
-    list-style: none;
-}
-.pricing-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    flex: 1;
-}
-.pricing-plan{
-    background-color: #f2f2f2;
-    max-height: 250px;
-    max-width: 400px;
-    height: 250px;
-    text-align: center;
-    padding: 10px;
-}
-
-.plan-title{
-    font-weight: bold;
-    font-size: 25px;
-}
-.plan-price{
-    font-weight: bold;
-    font-size: 30px;
-}
-.plan-button{
-    background-color: #FB6C00;
-    border-style: none;
-    color: white;
-    border-radius: 10%;
-    padding: 10px;
+.home{
+    color: white !important;
     font-weight: bold;
 }
-.plan-features{
-    list-style: none;
-    font-size: 18px;
-    padding: 0;
-    margin: 10px;
-}
-.footer{
-    display: flex;
-    justify-content: center;
-}
-.plan-price{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  color: midnightblue;
+
+.gradient-background, .pictures {
+    background: linear-gradient(300deg, #FFFBF1, #FFFAF3, #B6AE9F);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color: black;
+    font-family: sans-serif;
 }
 
-@media (max-width: 1250px) {
-    .pricing-container{
-        flex-direction: column;
-        margin-top: 0%;
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
     }
-    .about{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex: 1;
+    50% {
+        background-position: 100% 50%;
     }
-    .pricing-plan{
-        width: 200px;
+    100% {
+        background-position: 0% 50%;
     }
+}
+.carousel-item > img {
+    height: 700px;
+    object-fit: cover;
+}
+.pricing button{
+    background-color: #004147 !important;
+    color: white !important;
+}
+.gradient-background .samples{
+    background-color: #004147 !important;
 }

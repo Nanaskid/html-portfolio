@@ -4,73 +4,174 @@
         <link rel="stylesheet" href="./style.css">
         <meta charset="UTF-8">
         <title>13th June</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     </head>
 
     <body>
-        <div class="overall">
-            <h1>13th June Visuals</h1>
-            <div class="about">
-                <p class="Top-paragraph">13th June is an inspiration from the lagacy of my father, <span style="font-weight: bold;">Isika C.C (aka Uwa ru kwara gi mma)</span> who was born on June 13th and passed away in January 2022. Our aim is to honor & keep my father's legacy and image alive through the lens.</p>
+        <!-- Title -->
+         <section>
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> <a href="/"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-camera"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+                            <path
+                                d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                        </svg> <span class="fs-4">13th June Visuals</span> </a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="#" class="nav-link active home" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    </ul>
+                </header>
             </div>
-            <div class="booking">
-                <p>We are here to capture every beautiful moment of you through</p>
-                <ul>
-                    <li>Photoshoot session</li>
-                    <li>Editing existing photos of you</li>
+         </section>
+
+         <!-- overview -->
+        <section class="gradient-background">
+            <div class="container col-xxl-8 px-4 pt-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6"> <img src="./assests/images/pexels-jill-wellington-contact-lens.jpg" class="d-block mx-lg-auto img-fluid"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-black lh-1 mb-3">13th June Visuals</h1>
+                        <p class="lead">Turning your moments into timeless memories.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+                                class="btn btn-primary btn-lg px-4 me-md-2 samples" fdprocessedid="7me2nc">Samples</button> 
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="pggpue">Rates</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+        <!-- Sample Pictures -->
+        <section class="pictures">
+            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assests/images/IMG_4256.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assests/images/IMG_4430.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assests/images/IMG_5652.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assests/images/IMG_6629.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- pricing -->
+         <section class="container">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal text-body-emphasis">Packages & Rates</h1>
+                <p class="fs-5 text-body-secondary">We offer affordable session experience</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center pricing">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal"><strong>Standard</strong></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">#60,000<small class="text-body-secondary fw-light">/session</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Professional PhotoShoot</li>
+                                <li>1 Outfit</li>
+                                <li>5 Photo Edit</li>
+                                <li>1 Video Reel</li>
+                            </ul> <button type="button" class="w-100 btn btn-lg btn-outline-primary">Book</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal"><strong>Premium</strong></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">#100,000<small class="text-body-secondary fw-light">/session</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Professional PhotoShoot</li>
+                                <li>2 Outfits</li>
+                                <li>10 Photo Edit</li>
+                                <li>1 Video Reel</li>
+                            </ul> <button type="button" class="w-100 btn btn-lg btn-primary">Book</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal"><strong>Couples</strong></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">#135,000<small class="text-body-secondary fw-light">/session</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Professional PhotoShoot</li>
+                                <li>4 Outfits</li>
+                                <li>12 Photo Edit</li>
+                                <li>1 Video Reel</li>
+                            </ul> <button type="button" class="w-100 btn btn-lg btn-primary">Book</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- footer -->
+          <section class="container">
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2026 13th June. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/13thjune__?igsh=MWg0azI2ZnF0enJ3aQ%3D%3D&utm_source=qr" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/13thjune__?igsh=MWg0azI2ZnF0enJ3aQ%3D%3D&utm_source=qr" aria-label="TikTok"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                    </svg></a></li>
                 </ul>
             </div>
-            <p>See our rate card below and give us the opportunity to capture you wonderful moments.</p>
-           <div class="pricing-container">
-                <div class="pricing-plan">
-                    <div class="plan-title">Standard</div>
-                    <div class="plan-price">#60,000</div>
-                    <ul class="plan-features">
-                        <li>✅ 5 Professional Photo Edit</li>
-                        <li>✅ 1 Outfit</li>
-                        <li>✅ 1 Video Reel</li>
-                    </ul>
-                    <button class="plan-button">Book</button>
-                </div>
-                <div class="pricing-plan">
-                    <div class="plan-title">Premium</div>
-                    <div class="plan-price">#100,000</div>
-                    <ul class="plan-features">
-                        <li>✅ 10 Professional Photo Edit</li>
-                        <li>✅ 2 Outfits</li>
-                        <li>✅ 1 Video Reel</li>
-                    </ul>
-                    <button class="plan-button">Book</button>
-                </div>
-                <div class="pricing-plan">
-                    <div class="plan-title">Couple</div>
-                    <div class="plan-price">#100,000</div>
-                    <ul class="plan-features">
-                        <li>✅ Professional Photo Edit</li>
-                        <li>✅ 2 Outfits</li>
-                        <li>✅ 1 Video Reel</li>
-                    </ul>
-                    <button class="plan-button">Book</button>
-                </div>
-                <div class="pricing-plan">
-                    <div class="plan-title">Stand Alone</div>
-                    <div class="plan-price">Price Varies</div>
-                    <ul class="plan-features">
-                        <li>✅ Video Reel-#30,000</li>
-                        <li>✅ Extra Picture-#5,000</li>
-                    </ul>
-                    <button class="plan-button">Book</button>
-                </div>
-            </div>
-            <div class="footer">
-                <footer>
-                <h5>Contact</h5>
-                        <a id="IG" href="https://www.instagram.com/13thjune__?igsh=MWg0azI2ZnF0enJ3aQ%3D%3D&utm_source=qr"><img src="./assests/images/IG Logo.webp" height="30px" alt="IG logo"></a>
-                        <a id="TikTok" href="https://www.tiktok.com/@_13thjune?_r=1&_t=ZS-980ULTTPkyj"><img src="./assests/images/TikTok Logo.webp" height="30px" alt="TikTok Logo"></a>
-                </footer>
-            </div>
-        </div>
+          </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+        </script>
     </body>
 </html>
