@@ -9,7 +9,7 @@
     font-weight: bold;
 }
 
-.gradient-background, .pictures {
+.gradient-background, .pictures{
     background: linear-gradient(300deg, #FFFBF1, #FFFAF3, #B6AE9F);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
@@ -28,10 +28,19 @@
         background-position: 0% 50%;
     }
 }
-.carousel-item > img {
-    height: 700px;
-    object-fit: cover;
+
+.carousel, .carousel-inner, .carousel-item{
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: 9 / 16; */
 }
+.carousel-item >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* background-color: #FFFBF1; */
+}
+
 .pricing button{
     background-color: #004147 !important;
     color: white !important;
